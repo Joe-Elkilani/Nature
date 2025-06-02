@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="First App - A simple web application.">
+    <meta name="author" content="Yousef Elkilani">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <!-- Favicon -->
+    <link rel="icon" href="public/imgs/faveicon.jfif" type="image/png">
+    <!-- Boot Strap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awsame -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Natural</title>
+</head>
+<body>
+    <header class="fixed-top" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo text-white fs-3" href="#">Natural</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fs-5 pb-2" style="--i: 1;" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 2;" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 3;" href="#services">Servises</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 4;" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 5;" href="#clints">Clints</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 6;" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 pb-2" style="--i: 7;" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="home position-relative w-100 vh-100" id="home">
+        <video autoplay muted loop class="top-0 start-0 w-100 h-100 z-n1 vh-100 position-absolute">
+            <source src="public/videos/Smal Natural.mp4" >
+        </video>
+        <div class="container d-flex align-items-center vh-100">
+            <div class="text z-3 text-white">
+                <h2 class="display-4 mb-2 fw-bold">Welcome<br> to <span id="el">My Website</span></h2>
+                <h3 class="mb-3 display-6 fw-bold">I'm <span id="element"></span></h3>
+                <p class="fs-5 w-50">I believe that simple design makes a big difference. Here, I share my passion for web development, one step at a time.</p>
+                <div class="btn-groub">
+                    <a href="#contact" class="btn btn-outline-danger">Contact Us</a>
+                    <a href="#about" class="btn btn-outline-warning">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about py-5">
+        <div class="title position-relative mb-2">
+            <h2 class="text-center fw-bold h1">About</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">About</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="text w-50 col-lg-6 col-sm-12 col-md-12" id="text">
+                    <h2>Natural</h2>
+                    <p class="fs-5">Nature is a beautiful and powerful force that surrounds us. From vibrant forests to serene oceans, it provides us with peace and inspiration. The harmony of life within nature reminds us of the importance of balance and conservation. Protecting our environment is essential to preserving the beauty and vitality of the world for future generations.</p>
+                </div>
+                <div class="image col-lg-6 col-sm-12 col-md-12 w-50 d-flex justify-content-end">
+                    <img src="public/imgs/about.jpeg" class="h-100 w-75" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services py-5">
+        <div class="title position-relative mb-5">
+            <h2 class="text-center fw-bold h1">Servises</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">Servises</h3>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row mt-3 gap-5" id="text">
+                <div class="card p-0 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+                    <img src="public/imgs/servises(1).jpeg" class="card-img-top" alt="Servises image">
+                    <div class="card-body">
+                        <h5 class="card-title">Nature Exploration</h5>
+                        <p class="card-text">
+                            Discover the beauty of nature with guided tours to breathtaking landscapes. Enjoy fresh air, peaceful forests, and unforgettable outdoor adventures.</p>
+                        <a href="#" class="btn btn-outline-danger">Learn More</a>
+                    </div>
+                </div>
+                <div class="card p-0 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+                    <img src="public/imgs/servises(2).jpeg" class="card-img-top" alt="Servises image">
+                    <div class="card-body">
+                        <h5 class="card-title">Eco-Friendly Activities</h5>
+                        <p class="card-text">Join our eco programs and take part in tree planting, beach cleanups, and fun activities that help protect and connect with the environment.</p>
+                        <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                </div>
+                <div class="card p-0 col-lg-4 col-md-12 col-sm-12" style="width: 18rem;">
+                    <img src="public/imgs/servises(3).jpeg" class="card-img-top" alt="Servises image">
+                    <div class="card-body">
+                        <h5 class="card-title">Nature Camps</h5>
+                        <p class="card-text">Experience camping under the stars, learn survival skills, and explore wildlife up close. Perfect for nature lovers and adventure seekers.</p>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery py-5 position-relative">
+        <div class="title position-relative mb-5">
+            <h2 class="text-center fw-bold h1">Gallery</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">Gallery</h3>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row mt-3 flex-wrap" id="text">
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(1).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Sunset Views</h3>
+                        <p>Golden skies melting into the horizon — every sunset tells a different story</p>
+                    </div>
+                </div>
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(2).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Mountain Trails</h3>
+                        <p>Explore rugged paths and breathtaking peaks captured in every step.</p>
+                    </div>
+                </div>
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(3).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Forest Wonders</h3>
+                        <p>A walk among the trees where light and shadow dance together.</p>
+                    </div>
+                </div>
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(4).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Wildlife Moments</h3>
+                        <p>Candid shots of nature’s most beautiful creatures in their natural habitats.</p>
+                    </div>
+                </div>
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(5).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Lakes & Reflection</h3>
+                        <p>Still waters and mirror-like reflections that calm the soul.</p>
+                    </div>
+                </div>
+                <div class="galleryimage position-relative col-lg-4 col-md-6 mb-4">
+                    <img src="public/imgs/gallery(6).jpeg" class="w-100" alt="gallary image">
+                    <div class="layer position-absolute bg-white py-2 px-4">
+                        <h3 class="fw-bold">Seasonal Magic</h3>
+                        <p>From spring blossoms to winter frost — nature’s beauty in every season.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay d-none position-fixed top-0 w-100 h-100 z-3 d-flex justify-content-between px-4 align-items-center">
+            <div class="image-over position-relative" id="prevImage">
+                <button id="closePrev" class="border-0 position-absolute bg-transparent text-white fs-3 close-over"><i class="fa-solid fa-xmark"></i></button>
+                <img src="public/imgs/gallery(1).jpeg" alt="">
+            </div>
+            <div class="content position-relative">
+                <img src="public/imgs/gallery(1).jpeg" class="w-100" alt="gallary Image">
+                <button id="close" class="border-0 position-absolute top-0 bg-transparent text-white fs-3 close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="group start-0 end-0 px-2 position-absolute d-flex justify-content-between align-items-center">
+                    <button id="prev" class="border-0 bg-transparent text-white fs-3 prev"><i class="fa-solid fa-circle-left"></i></button>
+                    <button id="next" class="border-0 bg-transparent text-white fs-3 next"><i class="fa-solid fa-circle-right"></i></button>
+                </div>
+            </div>
+            <div class="image-over position-relative" id="nextImage">
+                <button id="closeNext" class="border-0 position-absolute bg-transparent text-white fs-3 close-over"><i class="fa-solid fa-xmark"></i></button>
+                <img src="public/imgs/gallery(1).jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="clints" class="clints py-5 position-relative">
+        <div class="title position-relative mb-5">
+            <h2 class="text-center fw-bold h1">Testimonials</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">Testimonials</h3>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active text-danger indicators" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger indicators"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger indicators"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" class="text-danger indicators"></button>
+                </div>
+                <div class="carousel-inner d-flex justify-content-center text-center">
+                <div class="carousel-item w-75 mx-auto mb-5 active border-0">
+                    <div class="">
+                        <div class="image mb-4">
+                            <img src="public/imgs/Clints2.jfif" alt="Avatar Image">
+                        </div>
+                        <h3 class="text-dark">Yousef Elkilani</h3>
+                        <p class="w-75 text-dark">Working with this team was a game-changer. They understood our vision and brought it to life with precision and creativity. Highly recommended!</p>
+                    </div>
+                </div>
+                <div class="carousel-item w-75 mx-auto mb-5 border-0">
+                    <div class="">
+                        <div class="image mb-4">
+                            <img src="public/imgs/Clints3.jfif" alt="Avatar Image">
+                        </div>
+                        <h3 class="text-dark">Ahmed Elkilani</h3>
+                        <p class="w-75 text-dark">From day one, they treated our project like their own. Communication was smooth, and the results spoke for themselves. We'd definitely work with them again!</p>
+                    </div>
+                </div>
+                <div class="carousel-item w-75 mx-auto mb-5 border-0">
+                    <div class="">
+                        <div class="image mb-4">
+                            <img src="public/imgs/Clints4.jfif" alt="Avatar Image">
+                        </div>
+                        <h3 class="text-dark">Mohamed Elkilani</h3>
+                        <p class="w-75 text-dark">Professional, efficient, and detail-oriented. The final product exceeded our expectations and was delivered ahead of schedule.</p>
+                    </div>
+                </div>
+                <div class="carousel-item w-75 mx-auto mb-5 border-0">
+                    <div class="">
+                        <div class="image mb-4">
+                            <img src="public/imgs/Clints5.jfif" alt="Avatar Image">
+                        </div>
+                        <h3 class="text-dark">Doha Elkilani</h3>
+                        <p class="w-75 text-dark">Their attention to detail and commitment to quality stood out from day one. The process was smooth, and the results were exactly what we envisioned.</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev ind" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next ind" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team py-5 position-relative">
+        <div class="title position-relative mb-5">
+            <h2 class="text-center fw-bold h1">Team</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">Team</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-13 mb-3 ps-3 overflow-hidden text-center text-white p-0 rounded-2">
+                    <div class="image overflow-hidden position-relative w-100">
+                        <img src="public/imgs/team1.jfif" class="w-100" alt="Clint Image">
+                        <div class="layer flex-row-reverse gap-3 bg-white d-flex justify-content-center align-items-center position-absolute text-dark z-2">
+                            <i class="fa-brands fa-facebook-f bg-dark rounded-circle  p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-twitter bg-dark rounded-circle  p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-pinterest bg-dark rounded-circle  p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-linkedin bg-dark rounded-circle  p-4 fs-2 text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-3 text">
+                        <h3 class="fs-2">Yousef Elkilani</h3>
+                        <h4 class="fs-3">Front-End Developer</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-13 mb-3 ps-3 overflow-hidden text-center text-white p-0 rounded-2">
+                    <div class="image overflow-hidden position-relative w-100">
+                        <img src="public/imgs/team.jfif" class="w-100" alt="Clint Image">
+                        <div class="layer flex-row-reverse gap-3 bg-white d-flex justify-content-center align-items-center position-absolute text-dark z-2">
+                            <i class="fa-brands fa-facebook-f bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-twitter bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-pinterest bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-linkedin bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-3 text">
+                        <h3 class="fs-2">Doha Elkilani</h3>
+                        <h4 class="fs-3">UI Designer</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-13 mb-3 ps-3 overflow-hidden text-center text-white p-0 rounded-2">
+                    <div class="image overflow-hidden position-relative w-100">
+                        <img src="public/imgs/team1.jfif" class="w-100" alt="Clint Image">
+                        <div class="layer flex-row-reverse gap-3 bg-white d-flex justify-content-center align-items-center position-absolute text-dark z-2">
+                            <i class="fa-brands fa-facebook-f bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-twitter bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-pinterest bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                            <i class="fa-brands fa-linkedin bg-dark rounded-circle p-4 fs-2 text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-3 text">
+                        <h3 class="fs-2">Yousef Elkilani</h3>
+                        <h4 class="fs-3">UX Designer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact py-4" id="contact">
+        <div class="title position-relative mb-5">
+            <h2 class="text-center fw-bold h1">Contact</h2>
+            <h3 class="position-absolute display-1 fw-bolder z-n1 titl">Contact</h3>
+        </div>
+        <div class="container">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1681863129691!5m2!1sen!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+            <div class="row mb-2">
+                <div class="col-lg-4 my-3 d-flex justify-content-center align-content-center  p-5 flex-column rounded-2 text-center">
+                    <div class="d-flex color align-items-center my-1 justify-content-center">
+                        <div class="w-fit ico bg-gray py-4 px-4 rounded-circle">
+                            <i class="fa-solid fa-paper-plane fs-1"></i>
+                        </div>
+                    </div>
+                    <h3 class="fw-bold">Address</h3>
+                    <p class="fs-5 text-gray">Egypt, Menoufia, Shibin El Kom</p>
+                </div>
+                <div class="col-lg-4 my-3 d-flex justify-content-center align-content-center p-5 flex-column rounded-2 text-center">
+                    <div class="d-flex color align-items-center my-1 justify-content-center">
+                        <div class="w-fit ico bg-gray py-4 px-4 rounded-circle">
+                            <i class="fa-solid fa-envelope fs-1"></i>
+                        </div>
+                    </div>
+                    <h3 class="fw-bold">Email</h3>
+                    <p class="fs-5 text-gray">YousefElkilani15112011@gmail.com</p>
+                </div>
+                <div class="col-lg-4 my-3 d-flex justify-content-center align-content-center p-5 flex-column rounded-2 text-center">
+                    <div class="d-flex color align-items-center my-1 justify-content-center">
+                        <div class="w-fit ico bg-gray py-4 px-4 rounded-circle">
+                            <i class="fa-solid fa-phone fs-1"></i>
+                        </div>
+                    </div>
+                    <h3 class="fw-bold">Phone</h3>
+                    <p><a href="#" class="text-decoration-none text-dark fs-5">+20 1094012560</a></p>
+                </div>
+            </div>
+            <form>
+                <div class="inp d-lg-flex d-sm-block justify-content-between align-items-center">
+                    <input placeholder="Name" type="text" class="bg-gray me-3 mb-3 py-2 px-3 rounded-2 fs-5 border-0 w-100">
+                    <input placeholder="Email" type="text" class="bg-gray py-2 mb-3 px-3 rounded-2 fs-5 border-0 w-100">
+                </div>
+                <textarea placeholder="Message" class="w-100 bg-gray my-3 border-0 fs-5 rounded-2"></textarea>
+                <a href="mailto:YousefElkilani15112011@gmail.com" download class="btn btn-1 px-5 py-3 text-decoration-none text-white bg-dark rounded-1">Submit</a>
+            </form>
+        </div>
+    </section>
+    <footer class="footer text-white">
+        <div class="container px-3 py-3">
+            <div class="row flex-wrap">
+                <div class="about col-lg-4 col-sm-12 col-md-12">
+                    <div class="d-flex align-items-center">
+                        <img src="public/imgs/Favicon.png" class="logoImage" alt="Mealify Logo">
+                        <h2 class="logo">Natural</h2>
+                    </div>
+                    <p>
+                        "Natural" is your trusted destination for natural products and wellness. We offer a wide range of products made from 100% natural ingredients, designed to enhance your daily life in a safe and organic way. Join us on a journey towards a healthier, more balanced lifestyle, and discover the benefits nature has to offer for both your body and mind.
+                    </p>
+                    <h3 class="text-center">Social Media</h3>
+                    <ul class="social-links d-flex justify-content-around">
+                        <li class="list-none">
+                        <a href="https://twitter.com" class="text-white" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        </li>
+                        <li class="list-none">
+                        <a href="https://facebook.com" class="text-white" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        </li>
+                        <li class="list-none">
+                        <a href="https://instagram.com" class="text-white" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        </li>
+                        <li class="list-none">
+                        <a href="https://linkedin.com" class="text-white" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="subscription col-lg-4 col-sm-12 col-md-12">
+                    <div class="subscription-box">
+                        <h3>Subscribe our Newsletter</h3>
+                        <p>
+                            Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Natural!
+                        </p>
+                        <div class="sunscription-group">
+                        <input type="email" placeholder="Enter Your Email Address">
+                        <button class="btn btn-main text-white">
+                            <i class="fa-solid fa-envelope"></i> Subscribe
+                        </button>
+                        </div>
+                    </div>
+                    <div class="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul class="d-flex flex-wrap">
+                        <li class="list-none position-relative">
+                            <a href="#home" class="text-white text-decoration-none">home</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#about" class="text-white text-decoration-none">About</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#serises" class="text-white text-decoration-none">Servises</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#gallery" class="text-white text-decoration-none">Gallery</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#Clints" class="text-white text-decoration-none">Testimonial</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#team" class="text-white text-decoration-none">Team</a>
+                        </li>
+                        <li class="list-none position-relative">
+                            <a href="#contact" class="text-white text-decoration-none">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="contact-details col-lg-4 col-sm-12 col-md-12">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li class="list-none d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot justify-content-center align-items-center d-flex"></i>
+                        <span>Egypt, Menoufia, Shibin El Kom</span>
+                        </li>
+                        <li class="list-none d-flex align-items-center">
+                        <i class="fa-solid fa-envelope justify-content-center align-items-center d-flex"></i>
+                        <a  class="text-white text-decoration-none" href="mailto:YousefElkilani15112011@gmail.com">YousefElkilani15112011@gmail.com</a>
+                        </li>
+                        <li class="list-none d-flex align-items-center">
+                        <i class="fa-solid fa-phone justify-content-center align-items-center d-flex"></i>
+                        <a class="text-white text-decoration-none" href="tel:+201094012560">+2 1094012560</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Jquery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <!-- Typed Js -->
+    <script src="assets/js/typed.js"></script>
+    <!-- Boot Strap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
